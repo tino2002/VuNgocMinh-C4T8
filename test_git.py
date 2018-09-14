@@ -1,3 +1,2 @@
 print("Hello")
-abc
-a
+print("hihi")

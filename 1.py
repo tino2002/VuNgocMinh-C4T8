@@ -1,12 +1,28 @@
+import random
+loop_count = 0
 while True:
-    quiz = input("""How many legs does a spider have?
-    a = None
-    b = 4 legs
-    c = 8 legs
-    d = 12 legs""")
-    print(quiz)
-    if quiz == "a":
-        print("correct")
-        break
+    c = (random.randint(0,100))
+    d = (random.randint(0,100))
+    g = c + d
+    e = g + random.randint(-1,1)
+
+    t = "True"
+    f = "False"
+    print(c,"+",d,"=",e)
+    
+    h = input("chon t hoac f")
+    if e == g:
+        if h == "t":
+            print(t)
+        else:
+            print(f)
+            break
     else:
-        print("Not correct")
+        if h == "f":
+            print(t)
+        else:
+            print(f)
+            break
+    z = loop_count + 1
+    loop_count += 1
+    print("điểm:",z)

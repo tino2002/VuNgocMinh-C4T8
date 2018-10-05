@@ -14,15 +14,15 @@ while True:
     if e == g:
         if h == "t":
             print(t)
-        if h == "f":
+        else:
             print(f)
             break
     else:
-        if h == "t":
-            print(f)
-            break
         if h == "f":
             print(t)
+        else:
+            print(f)
+            break
     z = loop_count + 1
     loop_count += 1
     print("điểm:",z)

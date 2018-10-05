@@ -1,5 +1,6 @@
 from turtle import *
-colormode(255)
+color("green")
+shape("turtle")
 width(5)
 for i in range(5):
     color(255, i * 60, 0)

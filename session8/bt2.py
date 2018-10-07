@@ -1,0 +1,2 @@
+items = ["LOL"]
+print(items)

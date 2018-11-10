@@ -1,0 +1,38 @@
+    #root {
+        font-family: 'Lobster', cursive;
+        display: flex;
+        flex-flow: column   ;
+        background-image: url(IMG_2556ed.jpg);
+        background-size: cover;
+
+        background-repeat: no-repeat;
+        justify-content: center
+    }
+    #heading  {
+        height: 600px;
+        width: 100%;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        font-size: 100px;
+        
+    }
+    .ins {
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        align-self: center; 
+        color: black;
+    }
+    .Box {
+        width: 80px;
+        height: 90px;
+        margin: 10px;
+        background-color:white;
+        align-self: center;
+    }
+
+     
+    .members {
+        font-size: 20px;
+        color: black;
+        align-self: center;
+    }

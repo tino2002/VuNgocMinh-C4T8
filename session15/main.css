@@ -1,0 +1,16 @@
+    .black {
+        color: white;
+        background-color: black;
+        height: 150px;
+        width: 50%;
+    }
+    .red {
+        background-color: red;
+        height: 150px;
+        width: 50%;
+    }
+    .yellow {
+        background-color: yellow;
+        height: 150px;
+        width: 50%;
+    }

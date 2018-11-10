@@ -1,0 +1,25 @@
+/* selecter {
+            property: value;
+        } */
+
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: blue;
+        }
+        #heading-2 {
+            color: green;
+            font-family: 'Lobster Two', cursive;
+            font-size: 40px;
+        }
+        .text-right {
+            text-align: right;
+        }
+        #Background-ele {
+            height: 500px;
+            width: 100%;
+            background-color: lightgreen;
+            /* background-attachment: fixed; */
+            
+        }

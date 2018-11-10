@@ -1,0 +1,31 @@
+.bg-green {
+    background-color: green;
+}
+.w-500px {
+    width: 500px;
+}
+.h-20px {
+    height: 200px;
+}
+.border {
+    border: 1px solid red;
+    border-radius: 10px
+}
+.mt-50px {
+    margin-top: 50px;
+}
+.ml-50px {
+    margin-left: 50px;
+}
+.mr-50px {
+    margin-right: 50px;
+}
+.d-inlineblock {
+    display: inline-block;
+}
+.mb-50px {
+    margin-bottom: 50px;
+}
+.m-item {
+    margin: 50px 70px 90px 110px;
+}

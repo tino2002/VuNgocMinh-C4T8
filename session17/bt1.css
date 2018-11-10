@@ -1,0 +1,151 @@
+.root{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(238, 238, 238)
+
+}
+.see-more {
+    background-color: #66ccff;
+    color: white;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.border {
+    border: 1px solid #99ccff;
+    border-radius: 5px
+}
+.box {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+
+}   
+.box1 {
+    width: 500px;
+    height: 100px;
+    border: 1px solid rgb(238, 238, 238);
+    display: flex;
+    padding: 10px
+}
+.box2 {
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px
+}
+.box3 {
+    width: 500px;
+    height:150px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    display: flex;
+    padding: 10px;
+}
+.box4 {
+    width: 500px;
+    height: 50px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ava {
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 10px;
+    
+}
+
+.mt {
+    margin-top:30px;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+.content {
+    width: 80%;
+    
+}
+.comment {
+    display: flex;
+    border: 1px solid rgb(238, 238, 238);
+    justify-content: space-between;
+    width: 300px;
+    padding: 5px;
+}
+.user {
+    color: #0da6f2;
+    display: flex;
+}
+.box-children1 {
+    height: 20px;
+  
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.box-children2 {
+    height: 60px;
+    
+    display: flex;
+}
+
+.box-children3 {
+    height: 70px;
+   
+    display: flex;
+}
+.box-children4 {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gray {
+    color: rgb(238, 238, 238);
+    display: flex;
+    
+}
+.gray-2 {
+    color: rgb(238, 238, 238);
+    display: flex;
+    
+}
+.in4 {
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+.chat {
+    padding-left: 10px;
+}
+.comment1 {
+    color: #0da6f2;
+    height: 100px;
+}

@@ -3,6 +3,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
+
    
 }
 
@@ -32,7 +33,7 @@ body {
     background-color: white;
     width: 500px;
     height: 500px;
-
+    border-radius: 10px;
 }   
 .box1 {
     width: 500px;
@@ -95,7 +96,7 @@ body {
     display: flex;
     border: 1px solid rgb(238, 238, 238);
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
     padding: 5px;
 }
 .user {
@@ -124,7 +125,6 @@ body {
     height: 30px;
     display: flex;
     justify-content: space-between;
-    
 }
 .gray {
     color: rgb(238, 238, 238);
@@ -147,5 +147,5 @@ body {
 }
 .comment1 {
     color: #0da6f2;
-    height: 100px;
+    height: 10px;
 }

@@ -1,0 +1,43 @@
+* {
+    font-family: 'Unlock', cursive;
+    font-size: 1,2rem;
+    background-color: rgb(34, 48, 48)
+}
+#chars2 {
+    display: flex;
+}
+#pic {
+    display: inline;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.pic {
+    border-radius: 50%;
+
+}
+#content {
+    display: inline;
+    margin-left: 200px;
+    margin-top: 70px;
+    color: white;   
+}
+#comics {
+    display: flex;
+    flex-flow: row wrap;
+    border: 4px;
+    color: white;
+}
+
+.eachitems {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+#events {
+    display: flex;
+    flex-flow: row wrap;
+    border: 4px;
+    color: white;
+}

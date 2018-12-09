@@ -1,0 +1,46 @@
+* {
+    font-family: 'Unlock', cursive;
+    font-size: 1,2rem;
+    background-color: rgb(34, 48, 48)
+}
+#search_container {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px 16px 0px;
+}
+#search_bar {
+    width: 400px;
+    margin-right: 16px;
+    border-radius: 50px;
+    border-width: 1px;
+    
+}
+#btn_search {
+    background-color: rgb(10, 39, 37);
+    color: #ffffff;
+    padding: 2px 8px 4px 8px;
+    border-radius: 100px;
+}
+#content {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.pic {
+    margin: 10px 10px 10px 10px;
+    border-radius: 50px;
+
+}
+.name {
+    margin: 10px 10px 10px 10px;
+    overflow-wrap: break-word;
+    width: 200px;
+}
+.comics {
+    margin: 10px 10px 10px 10px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

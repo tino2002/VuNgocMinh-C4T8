@@ -61,11 +61,11 @@ function run(data) {
     var comicsDOM = document.getElementById('comics');
     for (var i = 0; i < comics.length; i++) {
         console.log(comics[i].name);
-        comicsDOM.insertAdjacentHTML('beforeend', `<div class='eachitems'>${comics[i].name};</div>`)
+        comicsDOM.insertAdjacentHTML('beforeend', `<div class='eachitems'>${comics[i].name}</div>`)
     };
     var eventsDOM = document.getElementById("events");
     for (var i = 0; i < events.length; i++) {
-        eventsDOM.insertAdjacentHTML("beforeend", `<div class='eachitems'>${events[i].name};</div>`)
+        eventsDOM.insertAdjacentHTML("beforeend", `<div class='eachitems'>${events[i].name}</div>`)
     }
     
 }

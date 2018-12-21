@@ -46,16 +46,18 @@ function run(data) {
             <img src="${imgScr}" width=500 height=500 class="pic"/>
         </div>
         <div id="content">
-            <h3 id="char-name">${name}</h3>
-            <div id="desc">${des}</div>
-            <h3>Related Comics</h3>
-            <div id="comics">
+            <h1 id="char-name">${name}</h1>
+            <div id="desc">${des}</div> 
+            <h3>Related Comics</h3> 
+            <div id="comics"> 
             </div>
             <h3>Related Events</h3>
             <div id="events">
             </div>
             <h3>References</h3>
         </div>
+        
+                
     `;
     chars2.insertAdjacentHTML("beforeend", characterHTMl);
     var comicsDOM = document.getElementById('comics');

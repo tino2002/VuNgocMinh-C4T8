@@ -28,14 +28,15 @@
 			}
 
 			#myUL li a {
-				border: 1px solid #ddd;
+				border: 1px solid #ff33cc;
 				margin-top: -1px;
 				background-color: #f6f6f6;
 				padding: 12px;
 				text-decoration: none;
 				font-size: 18px;
-				color: black;
+				color: #ff33cc;
 				display: block;
+				width: 15%;
 			}
 
 			#myUL li a:hover:not(.header) {
@@ -44,7 +45,7 @@
 		</style>
 	</head>
 	<body>
-		<input type="text" id="myInput" placeholder="Search" title="Type in a name" onclick="myFunction()" />
+		<input type="text" id="myInput" placeholder="Search" title="Type in a name" onclick="myFunction()" onchange="searchFunction()" />
 
 		<ul id="myUL">
 			<li><a href="#">A01</a></li>
@@ -57,26 +58,27 @@
 		</ul>
 
 		<script>
+			
+			function searchFunction() {
+				let input, filter, ul, li, a, i, txtValue;
+				input = document.getElementById("myInput");
+				filter = input.value.toUpperCase();
+				ul = document.getElementById("myUL");
+				li = ul.getElementsByTagName("li");
+				for (i = 0; i < li.length; i++) {
+				    a = li[i].getElementsByTagName("a")[0];
+				    txtValue = a.textContent || a.innerText;
+				        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+				            li[i].style.display = "";
+				        } else {
+				            li[i].style.display = "none";
+				        }
+				}
+			}
 			let showSearch = false;
 			let myInput = document.getElementById("myInput");
 			let listUl = document.getElementById("myUL");
-
 			function myFunction() {
-				// let input, filter, ul, li, a, i, txtValue;
-				// input = document.getElementById("myInput");
-				// filter = input.value.toUpperCase();
-				// ul = document.getElementById("myUL");
-				// li = ul.getElementsByTagName("li");
-				// for (i = 0; i < li.length; i++) {
-				//     a = li[i].getElementsByTagName("a")[0];
-				//     txtValue = a.textContent || a.innerText;
-				//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-				//             li[i].style.display = "";
-				//         } else {
-				//             li[i].style.display = "none";
-				//         }
-				// }
-
 				if (showSearch) {
 					// if(showSearch) mean if (showSearch === true)
 					listUl.style.display = "none";
